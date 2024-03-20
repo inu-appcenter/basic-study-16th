@@ -12,9 +12,9 @@
 ---
 
 ### 📱 Android
-|김하은|안찬호|이준희|
-|:-:|:-:|:-:|
-|<a href="https://github.com/kihaeu"><img src="https://avatars.githubusercontent.com/u/163748800?v=4" width=120></a>|<a href="https://github.com/ACH1002"><img src="https://avatars.githubusercontent.com/u/103422938?v=4" width=120></a>|<a href="https://github.com/Junhee8649"><img src="https://avatars.githubusercontent.com/u/67620918?v=4" width=120></a>|
+|김하은|박희찬|안찬호|이준희|
+|:-:|:-:|:-:|:-:|
+|<a href="https://github.com/kihaeu"><img src="https://avatars.githubusercontent.com/u/163748800?v=4" width=120></a>|<a href="https://github.com/kichan05"><img src="https://avatars.githubusercontent.com/u/70091408?v=4" width=120></a>|<a href="https://github.com/ACH1002"><img src="https://avatars.githubusercontent.com/u/103422938?v=4" width=120></a>|<a href="https://github.com/Junhee8649"><img src="https://avatars.githubusercontent.com/u/67620918?v=4" width=120></a>|
 
 ---
 
@@ -62,9 +62,10 @@
 ---
 
 ### 3️⃣ Week 3
-- API 연동 시 주의해야 할 사항들
+- API 연동 방법
     - FE
-        - 
+        - CORS Error
+        - Mocking
     - BE
         - 각 HTTP Method마다 return해줘야하는 Status Code는?
         - 4xx, 5xx Status code 중 사용할만한 Status Code 정리해보기 ex) 400 - 유효성 검사 실패 시 사용
