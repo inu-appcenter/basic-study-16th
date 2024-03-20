@@ -34,24 +34,49 @@
 ## 📚 Concepts
 ### 1️⃣ Week 1
 - Git이란 무엇인가?
+    - Git에서 사용하는 명령어들을 간단하게 정리해주세요
 - 그렇다면 GitHub는 무엇인가?
+    - 그 외에 다른 저장소에 대해 아는 게 있다면 간단하게 정리해주세요
+
+#### 📑 Ref.
+- [Git Challenge site](https://git-challenge.com/)
+- [Git 교과서 eBook link](https://thebook.io/080212/)
+
+---
 
 ### 2️⃣ Week 2
 - API란?
+    - API의 정의를 간단하게 정리해주세요
 - REST API란?
+    - REST의 의미
+    - REST 구성 요소/특징
+    - REST의 장단점
+    - 그외 추가적으로 공부한 내용이 있다면 정리해주세요
 - API에서 사용하는 용어들
+    - url / baseurl / uri
+    - header / body
+    - endpoint
+    - HTTP Status code (200, 201, 400...)
+    - HTTP Method (GET, POST, PUT, PATCH, DELETE)
+
+---
 
 ### 3️⃣ Week 3
 - API 연동 시 주의해야 할 사항들
     - FE
+        - 
     - BE
+        - 각 HTTP Method마다 return해줘야하는 Status Code는?
+        - 4xx, 5xx Status code 중 사용할만한 Status Code 정리해보기 ex) 400 - 유효성 검사 실패 시 사용
 
 ## 📝 Rules
 > **모든 프로세스는 `issue 등록` - `branch 개설` - `마크다운 작성 후 PR`로 이루어집니다!**  
-> `docs/본인이름/weekX.md` 형태로 만들어주세요! `(ex. docs/juwon/week1.md)`
+> `docs/본인이름/weekX.md` 형태로 만들어주세요! `(ex. docs/juwon/week1.md)`  
+> +되도록이면 Git CLI를 사용해주세요! IDE나 GUI 툴에서 제공하는 관련 버튼이 어떤 명령어에 대응되는 지 알고 사용하셨으면 좋겠습니다!
 
 - 커밋 컨벤션을 준수해주세요!
     - 해당 레포지토리에서는 마크다운 작업만 있을 예정이기 때문에 `Docs`만 사용해주시면 됩니다!
+        - ex) Docs: 1주차 과제 일부 작성
     - Feat: 새로운 기능 추가
     - Fix: 버그 수정
     - Docs: 문서 수정
