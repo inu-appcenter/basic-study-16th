@@ -34,10 +34,6 @@ status 명령어를 통해 Untracked files 을 다시 stage 해주면 된다. �
 
 ---
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4275b07c-5390-489c-8bbf-82e4caa3dbbc/85f7f494-f538-49b7-95d5-a5e2b5157489/Untitled.png)
-
-!https://velog.velcdn.com/images/starrypro/post/588c23ee-eef4-40df-a3d3-7f5a37490ae7/image.png
-
 ### 초기화 : 폴더를 깃 저장소로 변경한다.
 
 ### 기초 환경설정
