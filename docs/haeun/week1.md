@@ -1,4 +1,5 @@
-contents
+contents  
+basic study- week1 assignment 
 
 ## git?  
 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다.  
@@ -15,11 +16,12 @@ git clean: git으로 관리되지 않는 파일 정리(git status로 untracted �
 git version: 현재 git 버전 확인  
 git branch: 브랜치를 생성, 조회, 삭제  
 git switch: 다른 브랜치로 전환(=git checkout)
-
 git status : 변경된 파일 확인  
 git add . : 변경된 파일 스테이징(커밋할 파일 세팅)  
 git commit -m ' commit message '   
-git push origin haeun : git허브에 올리기
+git push origin haeun: git허브에 올리기  
+git diff : 두 트리 개체의 차이  
+git reset: staged 상태의 파일을 unstage로 변경 (주의해서 사용할 것)
 
 ## commit  
 git에서는 commit이라는 단위로 변경사항을 생성하고 추적한다. commit에는 사용자가 정확이 원하는만큼만 변경사항을 추가할 수 있다.  이를 위해서 git에서는 프로젝트 디렉터리의 변경사항을 커밋으로 바로 생성하지 않고, 커밋으로 생성할 내용을 먼저 스테이징 영역에 추가한 다음, 이 스테이징 영역에 있는 내용만을 커밋으로 만든다. 
