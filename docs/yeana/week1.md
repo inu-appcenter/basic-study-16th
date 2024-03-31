@@ -10,7 +10,7 @@
     
     : 파일 내 변화를 시간의 흐름에 따라 기록 → 필요한 상황에서 그 파일을 꺼내올 수 있는 시스템
     
-https://prod-files-secure.s3.us-west-2.amazonaws.com/700b4d3c-69f5-4ad4-beb3-650ff83dd912/df87d8fb-9ee2-43c6-b08d-7f6b786f6ef9/Untitled.png
+![git_readme_image-011](https://prod-files-secure.s3.us-west-2.amazonaws.com/700b4d3c-69f5-4ad4-beb3-650ff83dd912/df87d8fb-9ee2-43c6-b08d-7f6b786f6ef9/Untitled.png)
     
     - 버전 관리가 필요한 이유
         
