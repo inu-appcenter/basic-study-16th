@@ -70,22 +70,16 @@
     - 파일 등록, 커밋, 커밋 메시지 작성을 동시에 진행 |
     | git log | 로그 확인 |
     | git diff | 커밋 비교 |
-    | git remote
-    git remote -v
-    git remoteadd 원격저장소별칭 url
-    git remote rm 원격저장소 별칭 | 원격저장소 별칭
-    원격저장소 별칭과 url 확인
-    원격저장소와 연결
-    원격 서버 삭제 |
+    | git remote | 원격저장소 별칭과 url 확인 | 
+    |  git remote -v  | 원격저장소별칭 url | 
+    |  git remoteadd 원격저장소 별칭 |  원격저장소와 연결 |
+    | git remote rm 원격저장소 별칭 | 원격 서버 삭제 |
     | git pull/git fetch | 커밋 가져오기 |
-    | git push 원*저 별칭 브랜치이름 | 커밋 전송하기 |
-    | git branch
-    git branch 브랜치 이름
-    git checkout 브랜치 이름
-    git merge 브랜치이름 | 현재 브랜치 확인
-    브랜치 생성
-    브랜치 이동
-    브랜치 병합 |
+    | git push 원*저 별칭 브랜치이름 | 커밋 전송하기
+    | git branch | 현재 브랜치 확인 |
+    | git branch 브랜치 이름 | 브랜치 생성 |
+    | git checkout 브랜치 이름 | 브랜치 이동 |
+    | git merge 브랜치이름 | 브랜치 병합 |
     | git stash | 스태시 저장 |
     | git stash pop | 스태시 읽기 |
     | git rebase 브랜치이름 | 리베이스 병합 |
