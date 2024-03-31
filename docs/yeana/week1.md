@@ -41,50 +41,50 @@
 - git 기본 명령어
     
     
-    | 명령어 | 내용 |
-    | --- | --- |
-    | git init (경로 명) | 깃 초기화 |
-    | git status | 깃 상태 확인 |
-    | git clone 원격저장소URL 새 폴더 이름 | 깃 저장소 복제 |
-    | code 파일 이름 | vs code 실행 |
-    | ① 파일을 스테이지에 등록: git add 파일이름
-    ② 커밋: git commit
-    ③ vi 에디터에서 커밋 메시지 작성 | 파일 등록과 커밋 ①
-    - 파일 등록, 커밋, 커밋 메시지 작성을 따로 진행 |
-    | 
-    ① git commit -a
-    ② vi 에디터에서 커밋 메시지 작성 | 파일 등록과 커밋 ②
-    - 파일 등록, 커밋을 동시에 진행
-     |
-    | 
-    ① git commit -am “커밋 메시지” | 파일 등록과 커밋 ③
-    - 파일 등록, 커밋, 커밋 메시지 작성을 동시에 진행 |
-    | git log | 로그 확인 |
-    | git diff | 커밋 비교 |
-    | git remote
-    git remote -v
-    git remoteadd 원격저장소별칭 url
-    git remote rm 원격저장소 별칭 | 원격저장소 별칭
-    원격저장소 별칭과 url 확인
-    원격저장소와 연결
-    원격 서버 삭제 |
-    | git pull/git fetch | 커밋 가져오기 |
-    | git push 원*저 별칭 브랜치이름 | 커밋 전송하기 |
-    | git branch
-    git branch 브랜치 이름
-    git checkout 브랜치 이름
-    git merge 브랜치이름 | 현재 브랜치 확인
-    브랜치 생성
-    브랜치 이동
-    브랜치 병합 |
-    | git stash | 스태시 저장 |
-    | git stash pop | 스태시 읽기 |
-    | git rebase 브랜치이름 | 리베이스 병합 |
-    | git reset 옵션 커밋ID | 리셋 |
-    | git revert 커밋위치 | 리버트 취소 커밋 |
-    | git tag | 태그 관리 |
-    | git push 원격저장소별칭 태그이름 | 태그 전송 |
-    | git submodule add 원*저 url 폴더이름 | 서브모듈로 연결 |
+    명령어	내용
+git init (경로 명)	깃 초기화
+git status	깃 상태 확인
+git clone 원격저장소URL 새 폴더 이름	깃 저장소 복제
+code 파일 이름	vs code 실행
+① 파일을 스테이지에 등록: git add 파일이름
+② 커밋: git commit
+③ vi 에디터에서 커밋 메시지 작성	파일 등록과 커밋 ①
+- 파일 등록, 커밋, 커밋 메시지 작성을 따로 진행
+
+① git commit -a
+② vi 에디터에서 커밋 메시지 작성	파일 등록과 커밋 ②
+- 파일 등록, 커밋을 동시에 진행
+
+
+① git commit -am “커밋 메시지”	파일 등록과 커밋 ③
+- 파일 등록, 커밋, 커밋 메시지 작성을 동시에 진행
+git log	로그 확인
+git diff	커밋 비교
+git remote
+git remote -v
+git remoteadd 원격저장소별칭 url
+git remote rm 원격저장소 별칭	원격저장소 별칭
+원격저장소 별칭과 url 확인
+원격저장소와 연결
+원격 서버 삭제
+git pull/git fetch	커밋 가져오기
+git push 원*저 별칭 브랜치이름	커밋 전송하기
+git branch
+git branch 브랜치 이름
+git checkout 브랜치 이름
+git merge 브랜치이름	현재 브랜치 확인
+브랜치 생성
+브랜치 이동
+브랜치 병합
+git stash	스태시 저장
+git stash pop	스태시 읽기
+git rebase 브랜치이름	리베이스 병합
+git reset 옵션 커밋ID	리셋
+git revert 커밋위치	리버트 취소 커밋
+git tag	태그 관리
+git push 원격저장소별칭 태그이름	태그 전송
+git submodule add 원*저 url 폴더이름	서브모듈로 연결
+
 
 # 💭GitHub는 무엇인가
 
