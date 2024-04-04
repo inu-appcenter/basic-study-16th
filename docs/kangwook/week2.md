@@ -3,6 +3,8 @@
 
 API(Application Programming Interface)는 소프트웨어 프로그램이 다른 소프트웨어 프로그램으로 데이터를 전송할 수 있도록 하는 규칙 집합으로, 이미 존재하는 프로그램의 기능을 다른 애플리케이션에 통합할 수 있다.
 
+
+&nbsp;
 # 📌 REST API란?
 
 rest api란 REST를 기반으로 만들어진 API를 의미한다.
@@ -11,20 +13,24 @@ REST란 자원을 이름으로 구분하여 해당 자원의 상태를 주고받
 
 즉, HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD 작업을 적용하는 것을 의미한다.
 
+&nbsp;
 ## REST API의 특징
 
 1. **Stateless (무상태성)**
 
 작업을 위한 상태 정보를 따로 저장하고 관리하지 않는다. 세션 정보나 쿠키 정보를 별도로 저장하고 관리하지 않기 때문에 API 서버는 들어오는 요청만을 단순히 처리하면 된다. 때문에 서비스의 자유도가 높아지고 서버에서 불필요한 정보를 관리하지 않음으로써 구현이 단순해진다.
 
-1. **Client - Server 구조**
+&nbsp;
+2. **Client - Server 구조**
 
 REST 서버는 API 제공, 클라이언트는 사용자 인증이나 컨텍스트(세션, 로그인 정보)등을 직접 관리하는 구조로, 각각의 역할이 확실히 구분되기 때문에, 클라이언트와 서버에서 개발해야 할 내용이 명확해지고 서로의 의존성이 줄어들게 된다.
 
-1. **Self-descriptiveness (자체 표현 구조)**
+&nbsp;
+3. **Self-descriptiveness (자체 표현 구조)**
 
 REST API 메시지만 보고도 이를 쉽게 이해 할 수 있는 자체 표현 구조로 되어 있다는 것이다. 자원을 이름으로 구분하기 때문에, 의도를 쉽게 파악할 수 있다.
 
+&nbsp;
 ## 장단점
 
 ### 장점
@@ -46,6 +52,7 @@ REST API 메시지만 보고도 이를 쉽게 이해 할 수 있는 자체 표�
 
 # API에서 사용하는 용어들
 
+&nbsp;
 ## url / baseurl / uri
 
 1. **URL (Uniform Resource Locator)**:
@@ -69,6 +76,7 @@ REST API 메시지만 보고도 이를 쉽게 이해 할 수 있는 자체 표�
 
 요약하면, URL은 인터넷 상의 자원을 가리키는 주소이며, baseURL은 웹 사이트의 기본 URL을 나타내고, URI는 인터넷 상의 자원을 식별하는 문자열을 가리킨다. 모든 URL은 URI이지만 모든 URI가 URL은 아니다.
 
+&nbsp;
 ## HTTP header / body
 
 hedaer와 body는 주로 HTTP 통신을 할 때 메시지를 보낼 때 포함되는 포맷이다.
@@ -78,10 +86,12 @@ hedaer와 body는 주로 HTTP 통신을 할 때 메시지를 보낼 때 포함�
 2. body
     - 해당 요청/응답에 대한 실제 메시지,내용을 담는다.
 
+&nbsp;
 ## endpoint
 
 Endpoint는 API가 서버의 리소스에 접근 할 수 있도록 해주는 URL이다.
 
+&nbsp;
 ## HTTP Status code
 
 서버에서의 처리 결과는 응답 메시지의 상태 라인에 있는 상태 코드(status code)를 보고 파악할 수 있다. 
@@ -102,6 +112,7 @@ Endpoint는 API가 서버의 리소스에 접근 할 수 있도록 해주는 URL
     - 서버 사정으로 메시지 처리에 문제가 발생한 경우이다. 서버의 부하, DB 처리 과정 오류, 서버에서 예외가 발생하는 경우를 의미합니다.
     
 
+&nbsp;
 ## HTTP Method (GET, POST, PUT, PATCH, DELETE)
 
 HTTP메소드란 클라이언트와 서버사이에 이루어지는 요청과 응답 데이터를 전송하는 방식을 말한다.  HTTP request와 HTTP response의 두가지 타입이 존재한다.
