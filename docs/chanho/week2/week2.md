@@ -30,7 +30,7 @@ REST API 설계 기본 규칙
 > Representational State Transfer의 약자로 HTTP 프로토콜을 통해 API를 설계하기 위한 아키텍쳐 스타일이다. 뛰어난 유연셩이 이점이다.
 > (ex: HTTP URI, HTTP Method(POST, GET, PUT, DELETE, PATCH 등)
 
-![REST API 이미지](docs/chanho/week2/week2.png)
+![REST API 이미지](/docs/chanho/week2/week2.png)
 
 ## REST의 구성요소
 
