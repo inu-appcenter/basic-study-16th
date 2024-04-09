@@ -6,7 +6,7 @@ Application Programming Interface ( 응용프로그램 프로그래밍 인터페
 
 즉, 어떠한 응용 프로그램에서 데이터를 주고받기 위한 방법을 의미한다. 어떤 특정 사이트에서 특정 데이터를 공유할 경우 어떠한 방식으로 정보를 요청해야 하는지, 그리고 어떠한 데이터를 제공 받을 수 있을지에 대한 규격들을 API라고 한다. 
 
-<img src=“https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqVfU6%2Fbtsc0qfbK4O%2FgqZx5mfuqmwpmP1ziLKfG1%2Fimg.webp” width=”300” height=”100” />
+<p align="center"><img src=“https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqVfU6%2Fbtsc0qfbK4O%2FgqZx5mfuqmwpmP1ziLKfG1%2Fimg.webp” width=”300” height=”100” ></p>
 
 ## REST API
 
@@ -14,13 +14,13 @@ Application Programming Interface ( 응용프로그램 프로그래밍 인터페
     
     REST(Representational State Transfer)의 약자로 `자원`을 이름으로 구분하여 해당 ******`자원의 상태를 주고받는 모든 것`을 의미한다. 웹에서 데이터를 전송하고, 처리하는 방법을 정의한 인터페이스라고도 설명할 수 있다. 
     
-    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--YTDTEgpk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ekawmj3rafdtn06hzj79png" width="400" height="300"/>
+    <p align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--YTDTEgpk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ekawmj3rafdtn06hzj79png" width="400" height="300"></p>
     
     자원, 즉 문서, 사진, 그림, 데이터 등 소프트웨어가 관리하는 모든 것을 HTTP URI(Uniform Resource Identifier)를 통해 명시한다. 
     
     예를 들어 DB의 영화 정보가 자원일 때, /movies를 자원의 표현으로 정할 수 있다. 
     
-    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb8CMjS%2FbtscYWlqbSJ%2FizcMPJRhSP5kXLxhJOqmU1%2Fimg.png" width="200" height="80"/>
+    <p align="center"><<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb8CMjS%2FbtscYWlqbSJ%2FizcMPJRhSP5kXLxhJOqmU1%2Fimg.png" width="200" height="80"></p>
     
     또한, 클라이언트는 데이터가 요청되어지는 시점에서 자원의 상태(정보=Pay Load)를 전달한다. 
     
@@ -159,7 +159,7 @@ REST의 원리를 따르는 API를 의미한다. 다만, REST API를 올바르�
     
     URL vs URI
    
-    <img src="https://www.guru99.com/images/2/022220_0627_URLvsURIMos2.png"/>
+    <p align="center"><img src="https://www.guru99.com/images/2/022220_0627_URLvsURIMos2.png"></p>
     
     위의 사진과 같이 “your name”이 “hyeonseung”이라고 하자. 이는 고유한 문자열이고, 식별 가능한 문자열이다. 따라서 URI 가 될 수 있다. 그러나, 이름만 가지고는 집 위치를 알 수 는 없기에, URL은 될 수 없다. 
     
