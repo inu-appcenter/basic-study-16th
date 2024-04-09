@@ -6,21 +6,19 @@ Application Programming Interface ( 응용프로그램 프로그래밍 인터페
 
 즉, 어떠한 응용 프로그램에서 데이터를 주고받기 위한 방법을 의미한다. 어떤 특정 사이트에서 특정 데이터를 공유할 경우 어떠한 방식으로 정보를 요청해야 하는지, 그리고 어떠한 데이터를 제공 받을 수 있을지에 대한 규격들을 API라고 한다. 
 
-<p align="center"><img src=“https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqVfU6%2Fbtsc0qfbK4O%2FgqZx5mfuqmwpmP1ziLKfG1%2Fimg.webp” width=”300” height=”100” ></p>
-
 ## REST API
 
 - REST의 의미
     
     REST(Representational State Transfer)의 약자로 `자원`을 이름으로 구분하여 해당 ******`자원의 상태를 주고받는 모든 것`을 의미한다. 웹에서 데이터를 전송하고, 처리하는 방법을 정의한 인터페이스라고도 설명할 수 있다. 
     
-    <p align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--YTDTEgpk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ekawmj3rafdtn06hzj79png" width="400" height="300"></p>
+    <p align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--YTDTEgpk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ekawmj3rafdtn06hzj79.png" width="400" height="300"></p>
     
     자원, 즉 문서, 사진, 그림, 데이터 등 소프트웨어가 관리하는 모든 것을 HTTP URI(Uniform Resource Identifier)를 통해 명시한다. 
     
     예를 들어 DB의 영화 정보가 자원일 때, /movies를 자원의 표현으로 정할 수 있다. 
     
-    <p align="center"><<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb8CMjS%2FbtscYWlqbSJ%2FizcMPJRhSP5kXLxhJOqmU1%2Fimg.png" width="200" height="80"></p>
+    <p align="center"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb8CMjS%2FbtscYWlqbSJ%2FizcMPJRhSP5kXLxhJOqmU1%2Fimg.png" width="400" height="300"></p>
     
     또한, 클라이언트는 데이터가 요청되어지는 시점에서 자원의 상태(정보=Pay Load)를 전달한다. 
     
@@ -92,6 +90,8 @@ Application Programming Interface ( 응용프로그램 프로그래밍 인터페
 
 ### REST API, RESTful API
 
+---
+
 ❔ REST API 란
 
 REST의 원리를 따르는 API를 의미한다. 다만, REST API를 올바르게 설계하기 위해서는 몇가지 규칙이 따른다. 
@@ -135,7 +135,7 @@ REST의 원리를 따르는 API를 의미한다. 다만, REST API를 올바르�
 ## API에서 사용하는 용어들
 
 
-### URL /BaseURL / URI
+### 📌URL /BaseURL / URI
 
 - URL (Uniform Resource Locator)
     
@@ -178,7 +178,7 @@ REST의 원리를 따르는 API를 의미한다. 다만, REST API를 올바르�
         query ( ?page=12) ⇒ URL을 포함한 URI  
         
 
-### header / body
+### 📌header / body
 
 HTTP 헤더 
 
@@ -201,13 +201,13 @@ HTTP 바디
 }
 ```
 
-### Endpoint
+### 📌Endpoint
 
 endpoint란 정보를 얻어오는 위치이다. API가 서버에서 특정 작업을 수행하기 위해 접근할 수 있는 특정 URI를 가리킨다. 
 
  예를 들어 특정 유저의 정보를 조회하고자 할 때 `api_site.com/{apikey}` 형식의 API가 있고, 여기에 파라미터를 포함해서 요청을 보낸 `api_site.com/{apikey}/users/{userId}/infos` 라는 구체적인 URL이 Endpoint인 셈이다. 
 
-### HTTP Method
+### 📌HTTP Method
 
 - `GET`  :데이터를 서버에서 받아올 때 사용되는 메소드
 - `PUT` : 데이터를 수정 및 생성할 때 사용되는 메소드. 주로 데이터 전체를 수정할 때 사용한다.
@@ -215,7 +215,7 @@ endpoint란 정보를 얻어오는 위치이다. API가 서버에서 특정 작�
 - `DELETE`: 현재 리소스(Document)를 삭제
 - `PATCH` : 데이터를 수정할 때 사용되는 메소드. PUT과의 차이점은, PUT은 자원의 모든 것을 업데이트하고, PATCH는 자원의 일부분을 업데이트한다.
 
-### HTTP Status code
+### 📌HTTP Status code
 
 ✅ **1XX (정보)** 
 
